@@ -1,3 +1,3 @@
 export default function Rooms() {
-  return <div>index</div>;
+  return <div>Twice commit</div>;
 }
