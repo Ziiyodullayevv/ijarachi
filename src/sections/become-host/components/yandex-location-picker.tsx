@@ -291,7 +291,7 @@ export const YandexLocationPicker: React.FC<Props> = ({
               backdropFilter: 'blur(6px)',
             }}
           >
-            <Typography variant="body2">Yandex Mapssss yuklanmoqda…</Typography>
+            <Typography variant="body2">Yandex Maps yuklanmoqda…</Typography>
           </Box>
         )}
       </Paper>
