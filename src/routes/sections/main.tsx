@@ -32,6 +32,8 @@ const Page404 = lazy(() => import('src/pages/error/404'));
 const BlankPage = lazy(() => import('src/pages/blank'));
 // Rooms
 const RoomsDetailsPage = lazy(() => import('src/pages/rooms'));
+// Wishlist
+const WishListPage = lazy(() => import('src/pages/wishlist/index'));
 
 // ----------------------------------------------------------------------
 
@@ -50,6 +52,7 @@ export const mainRoutes: RouteObject[] = [
           </MainLayout>
         ),
         children: [
+          { path: 'wishlist', element: <WishListPage /> },
           { path: 'rooms/:id', element: <RoomsDetailsPage /> },
           { path: 'about-us', element: <AboutPage /> },
           { path: 'contact-us', element: <ContactPage /> },
